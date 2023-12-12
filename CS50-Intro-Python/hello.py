@@ -27,7 +27,17 @@
 # ----
 # print("Hello, \"friend\"")
 
-# String manipulations - Removing whitespaces
+# Ask user for their name
 name = input("What's your name? ")
+
+# Remove whitespace from the str
 name = name.strip()
+
+# Capitalize user's name (only capitalize's first character)
+# name = name.capitalize()
+
+# Capitalize first character of each word
+# name = name.title()  
+
+# Say hello to user
 print(f"hello, {name}")
