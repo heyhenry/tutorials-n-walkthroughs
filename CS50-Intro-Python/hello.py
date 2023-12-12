@@ -1,6 +1,6 @@
 # Ask user for their name
 # ----
-name = input("What's your name? ")
+# name = input("What's your name? ")
 
 # Say hello to user
 # The usage of the innate parameter 'end=' (also known as named parameters) to cancel out its default newline execution and 
@@ -14,8 +14,9 @@ name = input("What's your name? ")
 # print(name)
 
 # Alternative way to include dynamic variable name is by using string.format as below:
-print(f"Hello, {name}")
+# print(f"Hello, {name}")
 
+# String manipulations - Quotations
 # For sentences that use multiple quotations, you can utilise either the following: 
 # This ensures different quotations are used
 # ----
@@ -25,3 +26,8 @@ print(f"Hello, {name}")
 # rather they are literal quotes used for selected word/s
 # ----
 # print("Hello, \"friend\"")
+
+# String manipulations - Removing whitespaces
+name = input("What's your name? ")
+name = name.strip()
+print(f"hello, {name}")
